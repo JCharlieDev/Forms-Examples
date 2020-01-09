@@ -1,0 +1,9 @@
+C:\Users\MSI\Desktop\TestPrograms\Windows Forms\Program01_05\bin\Debug\Program01_05.exe.config
+C:\Users\MSI\Desktop\TestPrograms\Windows Forms\Program01_05\bin\Debug\Program01_05.exe
+C:\Users\MSI\Desktop\TestPrograms\Windows Forms\Program01_05\bin\Debug\Program01_05.pdb
+C:\Users\MSI\Desktop\TestPrograms\Windows Forms\Program01_05\obj\Debug\Program01_05.Form1.resources
+C:\Users\MSI\Desktop\TestPrograms\Windows Forms\Program01_05\obj\Debug\Program01_05.Properties.Resources.resources
+C:\Users\MSI\Desktop\TestPrograms\Windows Forms\Program01_05\obj\Debug\Program01_05.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\TestPrograms\Windows Forms\Program01_05\obj\Debug\Program01_05.exe
+C:\Users\MSI\Desktop\TestPrograms\Windows Forms\Program01_05\obj\Debug\Program01_05.pdb
+C:\Users\MSI\Desktop\TestPrograms\Windows Forms\Program01_05\obj\Debug\Program01_05.csprojAssemblyReference.cache
