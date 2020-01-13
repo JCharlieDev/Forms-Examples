@@ -7,3 +7,12 @@ D:\Visual Studio Projects\Windows Forms\Program01_06\obj\Debug\Program02_01.cspr
 D:\Visual Studio Projects\Windows Forms\Program01_06\obj\Debug\Program01_06.exe
 D:\Visual Studio Projects\Windows Forms\Program01_06\obj\Debug\Program01_06.pdb
 D:\Visual Studio Projects\Windows Forms\Program01_06\obj\Debug\Program01_06.MessageBoxForm.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_06\bin\Debug\Program01_06.exe.config
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_06\bin\Debug\Program01_06.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_06\bin\Debug\Program01_06.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_06\obj\Debug\Program02_01.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_06\obj\Debug\Program01_06.MessageBoxForm.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_06\obj\Debug\Program01_06.Properties.Resources.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_06\obj\Debug\Program02_01.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_06\obj\Debug\Program01_06.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_06\obj\Debug\Program01_06.pdb

@@ -19,7 +19,12 @@ namespace Prorgam02_02
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            Close();
+            this.Close();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

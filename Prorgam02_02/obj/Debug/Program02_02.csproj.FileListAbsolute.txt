@@ -1,0 +1,9 @@
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Prorgam02_02\bin\Debug\Prorgam02_02.exe.config
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Prorgam02_02\bin\Debug\Prorgam02_02.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Prorgam02_02\bin\Debug\Prorgam02_02.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Prorgam02_02\obj\Debug\Prorgam02_02.Form1.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Prorgam02_02\obj\Debug\Prorgam02_02.Form2.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Prorgam02_02\obj\Debug\Prorgam02_02.Properties.Resources.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Prorgam02_02\obj\Debug\Program02_02.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Prorgam02_02\obj\Debug\Prorgam02_02.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Prorgam02_02\obj\Debug\Prorgam02_02.pdb
