@@ -29,10 +29,5 @@ namespace Program02_03
 
             lblMessage.Text = formMessage;
         }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
