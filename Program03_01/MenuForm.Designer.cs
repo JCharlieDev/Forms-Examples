@@ -49,6 +49,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtVariableB = new System.Windows.Forms.TextBox();
+            this.cmnuTxtVarB = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.cleanStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.randNumbStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.label3 = new System.Windows.Forms.Label();
             this.txtResult = new System.Windows.Forms.TextBox();
             this.tstOperations = new System.Windows.Forms.ToolStrip();
@@ -56,17 +59,15 @@
             this.tstBtnSub = new System.Windows.Forms.ToolStripButton();
             this.tstBtnMult = new System.Windows.Forms.ToolStripButton();
             this.tstBtnDiv = new System.Windows.Forms.ToolStripButton();
-            this.cmnuTxtVarB = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.cleanStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.randNumbStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.stsInformation = new System.Windows.Forms.StatusStrip();
             this.slblValues = new System.Windows.Forms.ToolStripStatusLabel();
             this.slblOperation = new System.Windows.Forms.ToolStripStatusLabel();
             this.slblResult = new System.Windows.Forms.ToolStripStatusLabel();
+            this.label4 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.cmnuTxtVarA.SuspendLayout();
-            this.tstOperations.SuspendLayout();
             this.cmnuTxtVarB.SuspendLayout();
+            this.tstOperations.SuspendLayout();
             this.stsInformation.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -236,6 +237,29 @@
             this.txtVariableB.Text = "0";
             this.txtVariableB.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // cmnuTxtVarB
+            // 
+            this.cmnuTxtVarB.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.cmnuTxtVarB.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cleanStripMenuItem1,
+            this.randNumbStripMenuItem2});
+            this.cmnuTxtVarB.Name = "cmnuTxtVarA";
+            this.cmnuTxtVarB.Size = new System.Drawing.Size(158, 52);
+            // 
+            // cleanStripMenuItem1
+            // 
+            this.cleanStripMenuItem1.Name = "cleanStripMenuItem1";
+            this.cleanStripMenuItem1.Size = new System.Drawing.Size(157, 24);
+            this.cleanStripMenuItem1.Text = "Clean";
+            this.cleanStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // randNumbStripMenuItem2
+            // 
+            this.randNumbStripMenuItem2.Name = "randNumbStripMenuItem2";
+            this.randNumbStripMenuItem2.Size = new System.Drawing.Size(157, 24);
+            this.randNumbStripMenuItem2.Text = "Rand Numb";
+            this.randNumbStripMenuItem2.Click += new System.EventHandler(this.randNumbStripMenuItem2_Click);
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -308,29 +332,6 @@
             this.tstBtnDiv.Text = "Divition";
             this.tstBtnDiv.Click += new System.EventHandler(this.divitionToolStripMenuItem_Click);
             // 
-            // cmnuTxtVarB
-            // 
-            this.cmnuTxtVarB.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.cmnuTxtVarB.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cleanStripMenuItem1,
-            this.randNumbStripMenuItem2});
-            this.cmnuTxtVarB.Name = "cmnuTxtVarA";
-            this.cmnuTxtVarB.Size = new System.Drawing.Size(158, 52);
-            // 
-            // cleanStripMenuItem1
-            // 
-            this.cleanStripMenuItem1.Name = "cleanStripMenuItem1";
-            this.cleanStripMenuItem1.Size = new System.Drawing.Size(157, 24);
-            this.cleanStripMenuItem1.Text = "Clean";
-            this.cleanStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
-            // 
-            // randNumbStripMenuItem2
-            // 
-            this.randNumbStripMenuItem2.Name = "randNumbStripMenuItem2";
-            this.randNumbStripMenuItem2.Size = new System.Drawing.Size(157, 24);
-            this.randNumbStripMenuItem2.Text = "Rand Numb";
-            this.randNumbStripMenuItem2.Click += new System.EventHandler(this.randNumbStripMenuItem2_Click);
-            // 
             // stsInformation
             // 
             this.stsInformation.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -377,11 +378,21 @@
             this.slblResult.Size = new System.Drawing.Size(100, 24);
             this.slblResult.Text = "Result:";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(-3, 231);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(122, 17);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Status Information";
+            // 
             // MenuForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(487, 278);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.stsInformation);
             this.Controls.Add(this.tstOperations);
             this.Controls.Add(this.txtResult);
@@ -397,9 +408,9 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.cmnuTxtVarA.ResumeLayout(false);
+            this.cmnuTxtVarB.ResumeLayout(false);
             this.tstOperations.ResumeLayout(false);
             this.tstOperations.PerformLayout();
-            this.cmnuTxtVarB.ResumeLayout(false);
             this.stsInformation.ResumeLayout(false);
             this.stsInformation.PerformLayout();
             this.ResumeLayout(false);
@@ -442,6 +453,7 @@
         private System.Windows.Forms.ToolStripStatusLabel slblValues;
         private System.Windows.Forms.ToolStripStatusLabel slblOperation;
         private System.Windows.Forms.ToolStripStatusLabel slblResult;
+        private System.Windows.Forms.Label label4;
     }
 }
 
