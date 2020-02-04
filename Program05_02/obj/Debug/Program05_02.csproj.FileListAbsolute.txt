@@ -1,0 +1,9 @@
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_02\bin\Debug\Program05_02.exe.config
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_02\bin\Debug\Program05_02.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_02\bin\Debug\Program05_02.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_02\obj\Debug\Program05_02.ComboBoxForm.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_02\obj\Debug\Program05_02.Properties.Resources.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_02\obj\Debug\Program05_02.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_02\obj\Debug\Program05_02.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_02\obj\Debug\Program05_02.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_02\obj\Debug\Program05_02.csprojAssemblyReference.cache
