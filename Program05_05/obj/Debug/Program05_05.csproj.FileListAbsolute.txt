@@ -1,0 +1,9 @@
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_05\bin\Debug\Program05_05.exe.config
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_05\bin\Debug\Program05_05.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_05\bin\Debug\Program05_05.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_05\obj\Debug\Program05_05.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_05\obj\Debug\Program05_05.ListBoxForm.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_05\obj\Debug\Program05_05.Properties.Resources.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_05\obj\Debug\Program05_05.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_05\obj\Debug\Program05_05.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_05\obj\Debug\Program05_05.pdb

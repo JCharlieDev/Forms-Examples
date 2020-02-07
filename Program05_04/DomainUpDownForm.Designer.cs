@@ -1,6 +1,6 @@
 ﻿namespace Program05_04
 {
-    partial class Form1
+    partial class DomainUpDownForm
     {
         /// <summary>
         /// Required designer variable.
@@ -100,7 +100,7 @@
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
-            // Form1
+            // DomainUpDownForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -112,8 +112,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.dupFruits);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "DomainUpDownForm";
+            this.Text = "DomainUpDown Form";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

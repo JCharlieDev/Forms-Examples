@@ -1,0 +1,9 @@
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_07\bin\Debug\Program05_07.exe.config
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_07\bin\Debug\Program05_07.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_07\bin\Debug\Program05_07.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_07\obj\Debug\Program05_07.ImageListForm.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_07\obj\Debug\Program05_07.Properties.Resources.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_07\obj\Debug\Program05_07.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_07\obj\Debug\Program05_07.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_07\obj\Debug\Program05_07.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program05_07\obj\Debug\Program05_07.csprojAssemblyReference.cache
