@@ -1,0 +1,9 @@
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program06_01\bin\Debug\Program06_01.exe.config
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program06_01\bin\Debug\Program06_01.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program06_01\bin\Debug\Program06_01.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program06_01\obj\Debug\Program06_01.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program06_01\obj\Debug\Program06_01.ColorDialogForm.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program06_01\obj\Debug\Program06_01.Properties.Resources.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program06_01\obj\Debug\Program06_01.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program06_01\obj\Debug\Program06_01.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program06_01\obj\Debug\Program06_01.pdb

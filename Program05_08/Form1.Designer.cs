@@ -31,10 +31,16 @@
             this.lstvFood = new System.Windows.Forms.ListView();
             this.txtAddElement = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rbtnFruits = new System.Windows.Forms.RadioButton();
             this.rbtnMeats = new System.Windows.Forms.RadioButton();
+            this.rbtnFruits = new System.Windows.Forms.RadioButton();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblSelected = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.txtImage = new System.Windows.Forms.TextBox();
+            this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnRemove = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,6 +52,8 @@
             this.lstvFood.Size = new System.Drawing.Size(491, 216);
             this.lstvFood.TabIndex = 0;
             this.lstvFood.UseCompatibleStateImageBehavior = false;
+            this.lstvFood.View = System.Windows.Forms.View.SmallIcon;
+            this.lstvFood.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lstvFood_MouseClick);
             // 
             // txtAddElement
             // 
@@ -65,18 +73,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Groups";
             // 
-            // rbtnFruits
-            // 
-            this.rbtnFruits.AutoSize = true;
-            this.rbtnFruits.Checked = true;
-            this.rbtnFruits.Location = new System.Drawing.Point(7, 22);
-            this.rbtnFruits.Name = "rbtnFruits";
-            this.rbtnFruits.Size = new System.Drawing.Size(64, 21);
-            this.rbtnFruits.TabIndex = 0;
-            this.rbtnFruits.TabStop = true;
-            this.rbtnFruits.Text = "Fruits";
-            this.rbtnFruits.UseVisualStyleBackColor = true;
-            // 
             // rbtnMeats
             // 
             this.rbtnMeats.AutoSize = true;
@@ -88,6 +84,18 @@
             this.rbtnMeats.TabStop = true;
             this.rbtnMeats.Text = "Meats";
             this.rbtnMeats.UseVisualStyleBackColor = true;
+            // 
+            // rbtnFruits
+            // 
+            this.rbtnFruits.AutoSize = true;
+            this.rbtnFruits.Checked = true;
+            this.rbtnFruits.Location = new System.Drawing.Point(7, 22);
+            this.rbtnFruits.Name = "rbtnFruits";
+            this.rbtnFruits.Size = new System.Drawing.Size(64, 21);
+            this.rbtnFruits.TabIndex = 0;
+            this.rbtnFruits.TabStop = true;
+            this.rbtnFruits.Text = "Fruits";
+            this.rbtnFruits.UseVisualStyleBackColor = true;
             // 
             // btnAdd
             // 
@@ -109,11 +117,74 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(511, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(67, 17);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Selected:";
+            // 
+            // lblSelected
+            // 
+            this.lblSelected.AutoSize = true;
+            this.lblSelected.Location = new System.Drawing.Point(584, 14);
+            this.lblSelected.Name = "lblSelected";
+            this.lblSelected.Size = new System.Drawing.Size(86, 17);
+            this.lblSelected.TabIndex = 7;
+            this.lblSelected.Text = "Selected PH";
+            // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(695, 12);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(93, 30);
+            this.btnClear.TabIndex = 8;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            // 
+            // txtImage
+            // 
+            this.txtImage.Location = new System.Drawing.Point(12, 385);
+            this.txtImage.Name = "txtImage";
+            this.txtImage.Size = new System.Drawing.Size(100, 22);
+            this.txtImage.TabIndex = 9;
+            this.txtImage.Text = "0";
+            this.txtImage.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // btnUpdate
+            // 
+            this.btnUpdate.Location = new System.Drawing.Point(118, 381);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(93, 30);
+            this.btnUpdate.TabIndex = 10;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnRemove
+            // 
+            this.btnRemove.Location = new System.Drawing.Point(695, 48);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(93, 30);
+            this.btnRemove.TabIndex = 11;
+            this.btnRemove.Text = "Remove";
+            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
+            // 
             // ListViewForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnRemove);
+            this.Controls.Add(this.btnUpdate);
+            this.Controls.Add(this.txtImage);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.lblSelected);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.groupBox1);
@@ -138,6 +209,12 @@
         private System.Windows.Forms.RadioButton rbtnFruits;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblSelected;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.TextBox txtImage;
+        private System.Windows.Forms.Button btnUpdate;
+        private System.Windows.Forms.Button btnRemove;
     }
 }
 

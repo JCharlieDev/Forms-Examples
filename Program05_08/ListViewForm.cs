@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Program05_08
 {
@@ -22,13 +23,39 @@ namespace Program05_08
 
         private void ListViewForm_Load(object sender, EventArgs e)
         {
+            lblSelected.Text = "";
+            //  Creates an ImageList
+
+            ImageList myImages = new ImageList();
+            myImages.ImageSize = new Size(100, 100);
+
+            //  We get the list of images.
+            string[] files = Directory.GetFiles("C:\\Users\\MSI\\Desktop\\GitHub Repos\\Forms-Examples\\Program05_08\\Images");
+
+            //  We load the files
+
+            try
+            {
+                foreach (string file in files)
+                {
+                    myImages.Images.Add(Image.FromFile(file));
+                }
+            }
+            catch
+            {
+
+                MessageBox.Show("Something went wrong at load time");
+            }
+
+            lstvFood.SmallImageList = myImages;
+
             lstvFood.Groups.Add(fruits);
             lstvFood.Groups.Add(meats);
 
-            lstvFood.Items.Add(new ListViewItem("Apple", fruits));
-            lstvFood.Items.Add(new ListViewItem("Watermelon", fruits));
-            lstvFood.Items.Add(new ListViewItem("Grape", fruits));
-            lstvFood.Items.Add(new ListViewItem("Orange", fruits));
+            lstvFood.Items.Add(new ListViewItem("Apple", 0, fruits));
+            lstvFood.Items.Add(new ListViewItem("Watermelon", 5, fruits));
+            lstvFood.Items.Add(new ListViewItem("Grape", 2, fruits));
+            lstvFood.Items.Add(new ListViewItem("Banana", 1, fruits));
 
             //  Other way of adding.
             ListViewItem myItem = new ListViewItem("Bacon", meats);
@@ -54,6 +81,29 @@ namespace Program05_08
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void lstvFood_MouseClick(object sender, MouseEventArgs e)
+        {
+            lblSelected.Text = lstvFood.SelectedItems[0].SubItems[0].Text;
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            lstvFood.Items.Clear();
+            lblSelected.Text = "";
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            lstvFood.SelectedItems[0].SubItems[0].Text = txtAddElement.Text;
+            lstvFood.SelectedItems[0].ImageIndex = Convert.ToInt32(txtImage.Text);
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            lblSelected.Text = "";
+            lstvFood.Items.RemoveAt(lstvFood.SelectedIndices[0]);
         }
     }
 }
