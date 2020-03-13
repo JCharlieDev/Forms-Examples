@@ -16,3 +16,12 @@ D:\Visual Studio Projects\Windows Forms\Program01_03\obj\Debug\Program01_03.Prop
 D:\Visual Studio Projects\Windows Forms\Program01_03\obj\Debug\Program01_03.csproj.GenerateResource.cache
 D:\Visual Studio Projects\Windows Forms\Program01_03\obj\Debug\Program01_03.exe
 D:\Visual Studio Projects\Windows Forms\Program01_03\obj\Debug\Program01_03.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_03\bin\Debug\Program01_03.exe.config
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_03\bin\Debug\Program01_03.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_03\bin\Debug\Program01_03.pdb
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_03\obj\Debug\Program01_03.csprojAssemblyReference.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_03\obj\Debug\Program01_03.Form1.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_03\obj\Debug\Program01_03.Properties.Resources.resources
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_03\obj\Debug\Program01_03.csproj.GenerateResource.cache
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_03\obj\Debug\Program01_03.exe
+C:\Users\MSI\Desktop\GitHub Repos\Forms-Examples\Program01_03\obj\Debug\Program01_03.pdb

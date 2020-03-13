@@ -40,6 +40,7 @@
             this.rbSum = new System.Windows.Forms.RadioButton();
             this.lblTxtResult = new System.Windows.Forms.Label();
             this.lblResult = new System.Windows.Forms.Label();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.gboxOperations.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -160,11 +161,23 @@
             this.lblResult.TabIndex = 7;
             this.lblResult.Text = "label1";
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(222, 143);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(110, 21);
+            this.radioButton1.TabIndex = 8;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(362, 337);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.lblTxtResult);
             this.Controls.Add(this.gboxOperations);
@@ -197,6 +210,7 @@
         private System.Windows.Forms.RadioButton rbSum;
         private System.Windows.Forms.Label lblTxtResult;
         private System.Windows.Forms.Label lblResult;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
 
